@@ -1,6 +1,6 @@
 # Are Neural Networks Already Clean? A small replication
 
-Three experiments that test claims from Goodfire's essay
+Three experiments, plus a full reading of one neuron, that test claims from Goodfire's essay
 [*Neural Networks Are Already Clean*](https://already-clean.goodfire.com) (Cammarata, 2026) on small
 language models I trained myself.
 
@@ -145,6 +145,74 @@ The exceptions are layer-0 neurons that switched token outright: `L0/N1338` went
 "[blanket]", and `L0/N793` from `said, "[Hi]` to a mix including "[purr]" and "[Mr]". These are
 reassignments, not mixtures.
 
+## Reading one neuron
+
+The experiments above test neurons as a population. Here one neuron goes through the essay's whole
+procedure: guess a label from top examples, then try to break it. The neuron is `L3/N590` of
+`bumbling-brook-124` at step 50k, the "counting" neuron from Experiment 3, chosen before any testing.
+Script: `read_neuron.py`; full output: [`read_L3N590.txt`](read_L3N590.txt).
+
+**First guess.** Over 1.2M held-out tokens, all 15 top gate-open firings are counting aloud:
+
+- `started to count, "[One]` → ", two," (the maximum, 26.6)
+- `one by [one]`
+- `One, [two]`
+
+Hence the label: *"fires on the number word of a count in progress."*
+
+The guess needs caution for two reasons:
+
+- **The middle band is mixed.** Firings at 30–50% of max land on " park", "No,", " agreed",
+  " careful", " friends" and the pronoun " one" ("the blue [one]"). Nearly all are followed by "," or ".".
+- **The negative pole is a contrast.** Its strongest firing is a story-opening " One" → " day" (−75% of max),
+  followed by birds that "liked to [fly]".
+
+| Test | Result | Does "counting" survive? |
+|---|---|---|
+| **Sentence test**: 10 new counting sentences and 10 near misses, written from the label before measuring | 8/10 counting sentences fire strongly (≥ 30% of max), vs 2/10 near misses. The essay reports 76% vs 11% | **Yes** |
+| **Ablation**: zero it everywhere | Counting is unaffected. P(" two" \| `count. "One,`) goes 96.8% → 96.7%, and every counting prompt moves ≤ 0.017 nats. Val loss +0.00018, the same as zeroing a random layer-3 neuron (+0.00016) | **No**: the model doesn't need it to count |
+| **Steering**: clamp it to 1–3× its max | Never produces counting. At 3× it writes "**One,** they saw a big, red bird" where it would say "One day,", and loops on "because they were too scared … because" | **No** |
+| **Output direction** (w2 column → unembedding) | Pushes up " where", " because", " which", " though", " but". Pushes down " day", " night", " last", " sunny", " evening" | **No**: it doesn't write counting |
+| **Input circuit** | Layer-2 MLP neurons supply only 21% of its gate input; the rest arrives through attention. One top driver, `L2/N583`, fires on a sentence-opening "[One]" | Neutral |
+
+**Revised label**, formed from the output side: *a switch on the word just said. Positive on a counting
+"One" / "two" / "one by one", negative on a story-opening "One". Its output suppresses time words
+(" day", " night") and favours clause continuations (" because", " where", " but").*
+
+The revised label was then tested by ablation:
+
+- Zeroing the neuron **raises** P(" day" \| counting "One") by +1.41 nats, about 4× the largest
+  random-neuron effect.
+- It **lowers** " because" after "very careful" (−0.45 nats) and after "felt envious" (62% → 48%).
+- It **lowers** " all" after "loved to skip" (17.6% → 8.7%). Random neurons move these by ≤ 0.05 nats.
+- The one miss: zeroing barely changes P(" day" \| story-opening "One") (97.2% → 97.1%). The model is
+  already certain there.
+
+**The same neuron in the other model.** The best match in `comic-cherry-166`, found by shared top contexts,
+is `L3/N222`:
+
+- It shares 12 of N590's top 100 contexts, and its own top contexts are all count sequences
+  ("one, two, three, [four]", "I counted [six]").
+- It fires on count words in a sequence (6/10 should-fire vs 2/10 near misses), but not on "one by one".
+- It also isn't needed for counting.
+- Its output pushes up closing punctuation (`."`, `.`, `,"`) instead, so the same reading job is wired to
+  a different output.
+- The two neurons' outputs correlate at only r = 0.07 over 300k tokens. Whole-corpus correlation
+  would have missed this match.
+
+**Verdict.** The counting label survives every test of *what makes the neuron fire*, and fails every test
+of *what it does*. Counting is what N590 reads. What it writes is a distinction: after a counting "One",
+don't say "day", continue the clause. This is the essay's "neurons are verbs, not nouns" point in
+miniature, and the negative pole (story-opening "One" → "day") shows the distinction directly. The neuron
+is readable, but only after the causal tests; the top-k label alone was half the story.
+
+Limits:
+
+- The test sentences were written by the same agent that had seen the top contexts. The essay uses a
+  second, blind agent.
+- One checkpoint per model.
+- The upstream analysis covers only the direct MLP-to-MLP path.
+
 ---
 
 ## Review
@@ -214,22 +282,29 @@ cs336/
 └── neuron-ablation/             # this repo
 ```
 
+The commands run in the assignment's uv environment without re-syncing it:
+
 ```bash
-../assignment1-basics/.venv/bin/python swiglu_ablation.py --run comic-cherry-166 --output results_comic-cherry-166.json
+uv run --project ../assignment1-basics --no-sync python swiglu_ablation.py --run comic-cherry-166 --output results_comic-cherry-166.json
 ```
 
 ```bash
-../assignment1-basics/.venv/bin/python swiglu_growth.py --run bumbling-brook-124 --output growth_bumbling-brook-124.json
+uv run --project ../assignment1-basics --no-sync python swiglu_growth.py --run bumbling-brook-124 --output growth_bumbling-brook-124.json
+```
+
+```bash
+uv run --project ../assignment1-basics --no-sync python read_neuron.py --output read_L3N590
 ```
 
 `nanochat/neuron_ablation.py` belongs in `scripts/` of a nanochat checkout with the MLX backend
 (`nanochat.mlx_backend`):
 
 ```bash
-python -m scripts.neuron_ablation --checkpoint <mlx checkpoint dir> --data <prepared data dir with val.npy>
+uv run python -m scripts.neuron_ablation --checkpoint <mlx checkpoint dir> --data <prepared data dir with val.npy>
 ```
 
-Each experiment runs in under a minute on an Apple-silicon Mac (MPS / MLX).
+Each experiment runs in under a minute on an Apple-silicon Mac (MPS / MLX). `read_neuron.py` takes a few
+minutes.
 
 ## Files
 
@@ -237,6 +312,8 @@ Each experiment runs in under a minute on an Apple-silicon Mac (MPS / MLX).
 |---|---|
 | `swiglu_ablation.py` | Experiments 1 and 2 on a CS336 SwiGLU checkpoint |
 | `swiglu_growth.py` | Experiment 3 across checkpoints |
+| `read_neuron.py` | Reading one neuron: contexts, label tests, ablation, steering, circuit, cross-model match |
+| `read_L3N590.{txt,json}` | Output of `read_neuron.py` for `L3/N590` |
 | `nanochat/neuron_ablation.py` | Experiment 1 on a nanochat ReLU² model (MLX) |
 | `results_comic-cherry-166.{txt,json}` | Experiments 1 and 2 output, including sign-split example texts |
 | `growth_bumbling-brook-124.{txt,json}` | Experiment 3 output, including most-changed neuron trajectories |

@@ -1,0 +1,222 @@
+Reading L3/N590 of bumbling-brook-124 (step 50000), 4 layers x d_ff 1344
+Held-out corpus: first 1,199,872 TinyStories validation tokens
+
+== 1. Top contexts ==
+max 26.59; fires above 10% of max on 3.818% of tokens, above 50% on 0.0128%; min -19.86
+-- positive, gate open (the neuron's job)
+   +26.59 (+100%)   must surrender and be 'it' now!" Spot agreed and started to count. "[[One]] → , two,
+   +25.61 (+96%)   you." Bob ran to hide behind the big tree. Tom started to count, "[[One]] → , two,
+   +25.42 (+96%)  ." So, Tim went to hide behind a big tree. Spot started to count, "[[One]] → , two,
+   +24.21 (+91%)   far or I will worry." The king closed his eyes and started to count. "[[One]] → , two,
+   +24.04 (+90%)   Spot wagged his tail and agreed. They started to play the game. Kitty counted, "[[One]] → , two,
+   +23.85 (+90%)   Each child stood next to a ball. They kicked the balls into the pit, one by[[ one]] → . The balls
+   +23.20 (+87%)   and his friends decided to play their favorite game. The elephant started to count, "[[One]] → , two,
+   +20.67 (+78%)   The big rock rolled very fast to find the small rocks. It found them one by[[ one]] → . The big
+   +20.34 (+76%)   park with her friends. The children sat in a circle and began to count. One,[[ two]] → , three -
+   +19.64 (+74%)   little human named Tim. Tim liked to number his toys. He would count them one by[[ one]] → , making sure
+   +19.57 (+74%)  The animals decided to unite and play a game. They would jump in the puddle one by[[ one]] → . The frog
+   +19.45 (+73%)   little rabbits, hopping around. The big one was white and fluffy, while the small[[ one]] →  was grey and
+   +19.29 (+73%)   to load the cars on a big truck. They took turns loading the cars, one by[[ one]] → . They had
+   +19.18 (+72%)   cat, and the bird liked to count the numbers on the balls. They counted one,[[ two]] → , three,
+   +19.02 (+72%)   Bob ran to hide behind the big tree. Tom started to count, "One,[[ two]] → , three..."
+-- positive, double-negative echo (gate<0, value<0)
+    +1.38 (+5%)     Sara and Tom are friends. They like to play with toys in Sara's room[[.]] →  Sara has many
+    +1.31 (+5%)  , in a small house, there lived a little girl named Lucy. Lucy had a yummy[[,]] →  delicious cake.
+    +1.29 (+5%)   helped each other. <|endoftext|>   Sara and Lily were sisters who liked to play together[[.]] →  But sometimes Sara
+    +1.28 (+5%)   to play again. <|endoftext|>   Lila and Ben were twins who liked to play together[[.]] →  They had many
+    +1.28 (+5%)  ! <|endoftext|>   Sara and Tom are friends. They like to play and share toys[[.]] →  One day,
+-- negative pole
+   -19.86 (-75%)   was a little purple bird. The bird lived in a big tree near a small house.[[ One]] →  day, the
+   -18.05 (-68%)  <|endoftext|> Once upon a time, there was a little yellow bird. The bird liked to[[ sit]] →  on a pole
+   -17.70 (-67%)  <|endoftext|> Once upon a time, there was a red bird. The red bird liked to[[ fly]] →  high in the
+   -17.67 (-66%)   the help of its friends. <|endoftext|> One day, a little bird named Tim was[[ flying]] →  in the sky
+   -17.65 (-66%)   <|endoftext|> Once upon a time, there was a colorful bird. The bird liked to[[ fly]] →  and sing.
+   -17.64 (-66%)  <|endoftext|> Once upon a time, there was a blue bird. The blue bird liked to[[ fly]] →  high in the
+   -17.58 (-66%)   was a very patient boy. One day, Tom saw a little bird with a hurt[[ wing]] → . The bird
+   -17.51 (-66%)   <|endoftext|> Once upon a time, there was a big, wide bird who loved to[[ fly]] →  high in the
+   -17.34 (-65%)   mom had a great day. <|endoftext|> One day, a little bird named Tim was[[ flying]] →  in the sky
+   -17.25 (-65%)   in the big green field. <|endoftext|> One day, a little bird named Tim was[[ flying]] →  in the sky
+-- 2059 tokens above 30% of max. Firing token: ' park' 174, ' one' 129, 'No' 126, ' agreed' 120, ' careful' 101, ' friends' 52, ' tree' 50, ' two' 48, ' the' 47, ' end' 45, ' three' 44, ' One' 28, ' slide' 26, ' But' 24, ' wanted' 23
+   Next token: ',' 635, '.' 445, ' and' 213, ' to' 88, ' of' 54, ' not' 32, ' with' 30, ' the' 23, ' who' 20, ' was' 18, ' for' 17, ' in' 17, '?"' 16, ',"' 14, ' then' 13
+-- mid band, firing on ' park' (174 tokens), random examples:
+    +9.23 (+35%)  , Tom, to ride bikes with her. Lily and Tom rode their bicycles to the[[ park]] → . They had
+   +11.01 (+41%)   One sunny day, Max went to the park to play with his friends. At the[[ park]] → , Max met
+    +9.05 (+34%)   to dig holes in the ground with his spade. One sunny day, Max went to the[[ park]] →  to play.
+    +9.33 (+35%)   it to the park man and ask if it belongs to someone." So they went to the[[ park]] →  man and gave
+-- mid band, firing on ' one' (129 tokens), random examples:
+    +7.99 (+30%)   toy truck. One day, a man came up to the baby. "Hey little[[ one]] → , why are
+   +11.39 (+43%)   happy. They played a game where they had to find things in the house. The first[[ one]] →  to find all
+   +13.68 (+51%)   she smiled. She bent down and got some rocks. She began to place them one by[[ one]] →  on the line
+   +13.70 (+52%)   to choose. He liked the red one because it was soft and comfy. But the blue[[ one]] →  was near the
+-- mid band, firing on 'No' (126 tokens), random examples:
+    +8.60 (+32%)   Tim said, "Can I wear some clothes too?" Amy was selfish and said, "[[No]] → , they are
+    +8.25 (+31%)   said, "Give me your toy!" The little girl looked at him and said, "[[No]] → , you can
+   +12.16 (+46%)   Tim said, "I want to sit on the seat first!" Sue said, "[[No]] → , I want
+   +10.04 (+38%)   to see what was inside. "Can we open them?" Sam asked. "[[No]] → , they are
+-- mid band, firing on ' agreed' (120 tokens), random examples:
+   +11.39 (+43%)   "Let's pretend the rock is a boat," he said to his friends. They all[[ agreed]] →  and started to
+   +13.79 (+52%)   "Sam, let's trade some blocks. I want to use blue blocks too." Sam[[ agreed]] → , "Okay
+   +12.20 (+46%)   named Lily. Lily said, "Remy, let's play hide and seek!" Remy[[ agreed]] →  and they started
+   +12.32 (+46%)   an idea. He said, "Let's play hide and seek in the fog!" Sue[[ agreed]] → , but she
+-- mid band, firing on ' careful' (101 tokens), random examples:
+   +12.91 (+49%)   So, they all worked together and made a plan. They showed Elephant how to be more[[ careful]] →  when he kicked
+   +10.27 (+39%)  The fox saw the bunny and began to creep closer. The bunny knew he had to be[[ careful]] → , so he
+    +9.35 (+35%)   "That's a nice crayon, Lily. But you know what? You have to be[[ careful]] →  with crayons.
+   +10.79 (+41%)   dad's apology and offer. He gave back their balls. He told them to be more[[ careful]] →  next time.
+-- mid band, firing on ' friends' (52 tokens), random examples:
+    +8.02 (+30%)   with my friends." Tom picked apples and filled his bag. He gave apples to his[[ friends]] → . They all
+    +8.17 (+31%)   a small bird with a hurt wing. The bird could not fly. Lily said to her[[ friends]] → , "Let
+    +9.58 (+36%)   future. <|endoftext|>  Once upon a time, there were two[[ friends]] →  – a bird
+   +10.55 (+40%)  , there were two[[ friends]] →  named Sally and
+
+== 2. Label, then sentences written from the label alone ==
+Label: Counting aloud: fires on the number word of a count in progress ('started to count, "[One]', 'One, [two]', 'one by [one]'), and predicts the comma or next item that follows
+-- should fire (strongest token, % of corpus max)
+   +54%  on 'One'      Mia closed her eyes and began to count. "One
+   +34%  on ' two'     Ben hid under the bed while Sue counted, "One, two
+   +33%  on ' one'     The kids lined up and jumped into the pool one by one
+   +48%  on ' two'     Grandpa pointed at the ducks and counted them: one, two, three
+   +19%  on ' one'     Lily put the eggs in the basket one by one
+   +34%  on 'One'      It was time for hide and seek. Anna faced the wall and counted, "One
+   +52%  on ' two'     Max counted his cookies. One, two, three, four
+   +65%  on ' one'     They took turns going down the slide, one by one
+   +25%  on 'One'      The teacher clapped and the whole class counted together, "One, two, three
+   +37%  on ' one'     The frog hopped across the stones one by one
+-- near misses, should not fire (strongest token, % of corpus max)
+    +2%  on ' the'     One day, a little girl named Mia went to the store
+   +20%  on ' ball'    Ben had one red ball and one blue ball
+   +12%  on ' dogs'    Sue had two cats and three dogs
+    -0%  on '<|endoftext|>' Lily was three years old
+    +3%  on ' the'     Tom wanted to count the stars in the sky
+   +14%  on ' one'     She was the only one who could help
+   +21%  on ' one'     "Which one do you want?" Mom asked
+   +30%  on ' two'     Tim ate one apple and two pears
+    -0%  on '<|endoftext|>' The bird liked to fly high in the sky
+   +30%  on ' one'     He found a coin with the number one on it
+   strong (>= 30% of max): 80% of should-fire sentences, 20% of near misses
+
+== 3. Ablation: zero the neuron everywhere ==
+-- counting prompts (does the model need it to count?)
+  prompt (end)                                       next   base  zeroed  Δ log p   20 random neurons: mean |Δ| / max |Δ|
+   closed his eyes and started to count. "One,     ' two'  96.8%   96.7%   -0.000   0.000 / 0.003
+  They counted together: one, two,               ' three'  97.6%   97.6%   -0.000   0.001 / 0.008
+  She counted her toys. One, two, three,          ' four'  75.5%   76.0%   +0.007   0.003 / 0.026
+  Anna faced the tree and started to count. "       'One'  98.5%   98.5%   +0.000   0.000 / 0.000
+  na faced the tree and started to count. "One        ','  98.9%   98.2%   -0.007   0.000 / 0.001
+  The kids went down the slide one by              ' one'  71.4%   71.7%   +0.005   0.003 / 0.013
+  He picked up the rocks one                        ' by'  69.3%   70.5%   +0.017   0.003 / 0.025
+-- output-side prompts, for the revised label: A switch on the word just said: positive on a counting 'One'/'two'/'one by one', negative on a story-opening 'One' -- its output suppresses time words (' day', ' night', ' evening') and favours clause continuations (' because', ' where', ' but')
+  prompt (end)                                       next   base  zeroed  Δ log p   20 random neurons: mean |Δ| / max |Δ|
+  na faced the tree and started to count. "One     ' day'   0.1%    0.2%   +1.413   0.035 / 0.364
+   lived in a big tree near a small house. One     ' day'  97.2%   97.1%   -0.001   0.000 / 0.003
+  er with the scissors. They were very careful ' because'   1.3%    0.8%   -0.448   0.009 / 0.043
+  y with the shiny new ball. Toto felt envious ' because'  62.4%   48.0%   -0.263   0.004 / 0.018
+  here was a purple cat. The cat loved to skip     ' all'  17.6%    8.7%   -0.703   0.005 / 0.027
+val loss on 102,400 tokens: baseline 1.4987; zeroing N590 +0.00018; zeroing one of 10 random L3 neurons +0.00016 on average (largest +0.00027)
+tokens whose loss rises most when it is zeroed (the prediction of the token after the arrow):
+   +0.92 nats   the kite. She had to tie string to the[[ middle]] →  so
+   +0.75 nats   <|endoftext|> Once upon a time, there was a purple cat. The cat loved to[[ skip]] →  all
+   +0.63 nats   time, in a tidy little house, there lived a bunny named Bobo. Bobo loved to[[ jump]] →  all
+   +0.55 nats   in the park with her friends. The children sat in a circle and began to count.[[ One]] → ,
+   +0.54 nats   wanted to share. They took turns using the scissors to cut the paper. They were very[[ careful]] →  because
+   +0.51 nats   very adorable. It had soft fur and big eyes. The cat liked to lie in the[[ sun]] →  all
+   +0.49 nats   Toto the bird, was watching him. Toto felt[[ envious]] →  because
+   +0.44 nats  Once upon a time, a little bird named Timmy lived in a tree. Timmy loved to[[ sing]] →  all
+
+== 4. Steering: clamp the neuron to a multiple of its corpus max at every position, greedy decode ==
+-- Once upon a time, there was a little girl named Lily. She liked to
+  baseline       [1 number words] ' play with her toys and have fun. One day, she found a big box in her room. She was very excited and wanted to see what was inside.\nLily opened the box and found a'
+  clamp 1x max   [1 number words] ' play with her toys and run in the park. One day, she saw a big, red ball in the park. She wanted to play with it, but it was too big for her to carry'
+  clamp 2x max   [1 number words] ' play with her toys and run in the park. One day, she saw a big, red ball in the park. She wanted to play with it, but she was too small to reach it.'
+  clamp 3x max   [1 number words] ' play with her toys and run in the park. One day, she found a big, red ball in the park. She was so happy and wanted to play with it right where she found it.'
+-- Tom and his dog went to the park. They
+  baseline       [0 number words] ' saw a big tree with a lot of shade. Tom and his dog were very happy. They wanted to play there.\nTom said, "Let\'s play hide and seek!" The dog agreed and'
+  clamp 1x max   [0 number words] ' wanted to play and have fun. They saw a big tree and wanted to climb it. Tom was very good at climbing trees.\nAs they climbed the tree, they saw a bird. The bird'
+  clamp 2x max   [0 number words] ' wanted to play and run. They were very happy.\nAt the park, they saw a big, red ball. Tom wanted to play with the ball, but he was too small to reach it'
+  clamp 3x max   [0 number words] ' wanted to play and run, but they did not like to run because they were too scared to run because they were too scared to run.\nAt the park, they saw a big, scary bird'
+-- The sun was shining and the birds were singing in the garden.
+  baseline       [1 number words] ' The sun was very hot, and the birds were singing. The sun was very hot, and the birds were singing.\nOne day, a little girl named Lily went to the park. She saw'
+  clamp 1x max   [1 number words] ' They were very happy.\nOne day, a little girl named Lucy went to the garden. She saw a big, red tomato. She wanted to pick it and take it home. But the tomato'
+  clamp 2x max   [1 number words] ' They were very happy because they loved to play and make the birds sing.\nOne day, the sun was very high and the sky was blue. The birds were singing and the flowers were blooming.'
+  clamp 3x max   [1 number words] ' They liked to play and run, but they always wanted to be the best because they were so good.\nOne, they saw a big, red bird who was sitting on the ground. "Look'
+
+== 5. Circuit ==
+Output: tokens its w2 column pushes up / down through the final norm and unembedding
+  up:   ' where' +0.34, ' because' +0.33, 'king' +0.31, ' which' +0.31, ' along' +0.30, ' though' +0.28, ' but' +0.27, ' this' +0.27, ' like' +0.25, 'die' +0.24, ' hello' +0.24, ' what' +0.24, ' now' +0.24, ' breaking' +0.24, '..."' +0.23
+  down: ' day' -0.33, 'ill' -0.33, ' last' -0.31, 'ain' -0.31, ' sunny' -0.30, ' night' -0.29, ' hot' -0.29, ' another' -0.28, ' warm' -0.28, ' fit' -0.28, 'at' -0.28, ' cold' -0.27, ' final' -0.27, ' evening' -0.26, ' pri' -0.26
+Input: direct contributions of layer-2 MLP neurons, averaged over its top 40 gate-open firings
+  (layer-2 MLP neurons supply 21% of the gate pre-activation on average; the rest comes from attention, embeddings and earlier layers)
+  drives it up:
+    L2/N422    +0.50   e.g. ' home.  The two friends rolled the tires[[ all]] → ' | ' him. He twisted his hand and spilled the juice[[ all]] → '
+    L2/N1147   +0.50   e.g. ' Bunny, I love playing with you!" Mr[[.]] → ' | ' always asked before taking anything, and she and Mr[[.]] → '
+    L2/N821    +0.38   e.g. "I will cut the dog's hair so it can[[ see]] → " | ' park. It is a zip line. It looks[[ fun]] → '
+    L2/N583    +0.31   e.g. ' was so sad that he started to cry. [[One]] → ' | ' sad because the itch would not go away. [[One]] → '
+    L2/N807    +0.27   e.g. ' know what to do. Just then, his mom[[ came]] → ' | ', but no sound[[ came]] → '
+    L2/N1107   +0.25   e.g. '. She was angry. She followed the trail to[[ their]] → ' | ' was very happy and loved to bow to the other[[ balls]] → '
+    L2/N45     +0.25   e.g. ' The pages ripped and the little girl cried. The[[ chairs]] → ' | ' mom and wanted to help. She looked around the[[ kitchen]] → '
+    L2/N609    +0.24   e.g. ' dog named Max found a tray. He was very[[ enthusiastic]] → ' | ' near his house. The well was very deep and[[ amazing]] → '
+  holds it down:
+    L2/N1212   -0.48   e.g. ' a little boy named Sam. Sam asked, "[[Is]] → ' | ' Freddy saw a big rock near the pool. He[[ had]] → '
+    L2/N901    -0.27   e.g. ' very happy. They turned it on and watched funny[[ shows]] → ' | ' He wanted to play with his toys, watch his[[ shows]] → '
+    L2/N1012   -0.19   e.g. '. He claps his hands. "You are[[ right]] → ' | ' surprised, but pleased. He soon realized she was[[ right]] → '
+    L2/N536    -0.16   e.g. ' big forest with many friends. They played games and[[ had]] → ' | ' at the funny dog. They all played together and[[ had]] → '
+
+== 6. The same neuron in comic-cherry-166? ==
+Every comic-cherry-166 neuron scored by how many of L3/N590's top-100 contexts are in its own top-1000 (and top-100), with the correlation of outputs over 300,032 tokens. Best:
+  L3/N222: 10/100 in its top-1000, 4/100 in its top-100, r = 0.067
+  L2/N288: 10/100 in its top-1000, 3/100 in its top-100, r = 0.058
+  L3/N1149: 9/100 in its top-1000, 4/100 in its top-100, r = 0.027
+  L1/N479: 8/100 in its top-1000, 0/100 in its top-100, r = 0.010
+  L2/N175: 7/100 in its top-1000, 2/100 in its top-100, r = 0.016
+Best match L3/N222 (step 2000): max 25.98; shares 12 of its top-100 contexts with L3/N590. Its top gate-open contexts:
+   +25.98 (+100%)   felt tight so he stopped and counted the corn. He counted one, two, three,[[ four]] →  and more.
+   +25.84 (+99%)   more!"  The voice laughed and said, "I'm counting too! I counted[[ six]] → , seven,
+   +24.65 (+95%)  !" They went back to the peaceful town. Lisa counted everything she saw. She counted[[ four]] →  trees, five
+   +23.21 (+89%)  Jack said, "I'm counting the corn. I counted one, two, three,[[ four]] → , and more
+   +22.78 (+88%)  field. He felt tight so he stopped and counted the corn. He counted one,[[ two]] → , three,
+   +22.17 (+85%)   peaceful town. Lisa counted everything she saw. She counted four trees, five dogs, and[[ six]] →  flowers. Tom
+   +22.10 (+85%)   went back to the peaceful town. Lisa counted everything she saw. She counted four trees,[[ five]] →  dogs, and
+   +22.00 (+85%)   you doing?" Jack said, "I'm counting the corn. I counted one,[[ two]] → , three,
+Same sentence test:
+-- should fire (strongest token, % of corpus max)
+   +76%  on ' "'       Mia closed her eyes and began to count. "One
+   +40%  on ' two'     Ben hid under the bed while Sue counted, "One, two
+    +1%  on '<|endoftext|>' The kids lined up and jumped into the pool one by one
+   +42%  on ' two'     Grandpa pointed at the ducks and counted them: one, two, three
+   +14%  on ' the'     Lily put the eggs in the basket one by one
+   +31%  on ' "'       It was time for hide and seek. Anna faced the wall and counted, "One
+   +43%  on ' four'    Max counted his cookies. One, two, three, four
+    +2%  on ' turns'   They took turns going down the slide, one by one
+   +46%  on ' two'     The teacher clapped and the whole class counted together, "One, two, three
+    +1%  on '<|endoftext|>' The frog hopped across the stones one by one
+-- near misses, should not fire (strongest token, % of corpus max)
+    +2%  on ' little'  One day, a little girl named Mia went to the store
+    +2%  on ' ball'    Ben had one red ball and one blue ball
+   +11%  on ' three'   Sue had two cats and three dogs
+    +2%  on ' three'   Lily was three years old
+   +34%  on ' the'     Tom wanted to count the stars in the sky
+    +1%  on ' who'     She was the only one who could help
+    +5%  on ' you'     "Which one do you want?" Mom asked
+   +41%  on ' two'     Tim ate one apple and two pears
+    +1%  on '<|endoftext|>' The bird liked to fly high in the sky
+   +22%  on ' number'  He found a coin with the number one on it
+   strong (>= 30% of max): 60% of should-fire sentences, 20% of near misses
+Same ablation, counting prompts:
+  prompt (end)                                       next   base  zeroed  Δ log p   20 random neurons: mean |Δ| / max |Δ|
+   closed his eyes and started to count. "One,     ' two'  99.9%   99.9%   +0.000   0.000 / 0.000
+  They counted together: one, two,               ' three'  87.9%   87.8%   -0.001   0.001 / 0.005
+  She counted her toys. One, two, three,          ' four'  93.4%   93.4%   -0.001   0.000 / 0.003
+  Anna faced the tree and started to count. "       'One'  95.4%   94.3%   -0.011   0.000 / 0.003
+  na faced the tree and started to count. "One        ','  95.5%   95.3%   -0.002   0.000 / 0.003
+  The kids went down the slide one by              ' one'  94.7%   94.7%   -0.001   0.000 / 0.002
+  He picked up the rocks one                        ' by'  91.2%   91.2%   -0.000   0.001 / 0.003
+Same ablation, output-side prompts:
+  prompt (end)                                       next   base  zeroed  Δ log p   20 random neurons: mean |Δ| / max |Δ|
+  na faced the tree and started to count. "One     ' day'   0.4%    0.4%   +0.180   0.006 / 0.020
+   lived in a big tree near a small house. One     ' day'  97.1%   97.1%   -0.000   0.000 / 0.000
+  er with the scissors. They were very careful ' because'   1.1%    1.1%   +0.001   0.012 / 0.083
+  y with the shiny new ball. Toto felt envious ' because'  19.7%   19.7%   +0.002   0.007 / 0.021
+  here was a purple cat. The cat loved to skip     ' all'  10.9%   10.8%   -0.005   0.011 / 0.041
+  pushes up:   '."', ' together', '.', '".', ',"', '",', ' only', ' top', ' end', '--', ' either', ' held'
+  pushes down: ' wisdom', ' lecture', ' manners', ' junk', ' attitude', ' scientist', ' history', ' consequences', ' liquid', ' sewing', ' math', ' room'
+

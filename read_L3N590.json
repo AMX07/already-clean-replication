@@ -1,0 +1,1244 @@
+{
+  "run": "bumbling-brook-124",
+  "ckpt": "ckpt_50000.pt",
+  "neuron": "L3/N590",
+  "corpus_max": 26.59065055847168,
+  "contexts": {
+    "positive, gate open (the neuron's job)": [
+      [
+        26.591,
+        " must surrender and be 'it' now!\" Spot agreed and started to count. \"[[One]] → , two,"
+      ],
+      [
+        25.612,
+        " you.\" Bob ran to hide behind the big tree. Tom started to count, \"[[One]] → , two,"
+      ],
+      [
+        25.417,
+        ".\" So, Tim went to hide behind a big tree. Spot started to count, \"[[One]] → , two,"
+      ],
+      [
+        24.212,
+        " far or I will worry.\" The king closed his eyes and started to count. \"[[One]] → , two,"
+      ],
+      [
+        24.045,
+        " Spot wagged his tail and agreed. They started to play the game. Kitty counted, \"[[One]] → , two,"
+      ],
+      [
+        23.853,
+        " Each child stood next to a ball. They kicked the balls into the pit, one by[[ one]] → . The balls"
+      ],
+      [
+        23.2,
+        " and his friends decided to play their favorite game. The elephant started to count, \"[[One]] → , two,"
+      ],
+      [
+        20.674,
+        " The big rock rolled very fast to find the small rocks. It found them one by[[ one]] → . The big"
+      ],
+      [
+        20.336,
+        " park with her friends. The children sat in a circle and began to count. One,[[ two]] → , three -"
+      ],
+      [
+        19.644,
+        " little human named Tim. Tim liked to number his toys. He would count them one by[[ one]] → , making sure"
+      ],
+      [
+        19.575,
+        "The animals decided to unite and play a game. They would jump in the puddle one by[[ one]] → . The frog"
+      ],
+      [
+        19.447,
+        " little rabbits, hopping around. The big one was white and fluffy, while the small[[ one]] →  was grey and"
+      ],
+      [
+        19.293,
+        " to load the cars on a big truck. They took turns loading the cars, one by[[ one]] → . They had"
+      ],
+      [
+        19.177,
+        " cat, and the bird liked to count the numbers on the balls. They counted one,[[ two]] → , three,"
+      ],
+      [
+        19.023,
+        " Bob ran to hide behind the big tree. Tom started to count, \"One,[[ two]] → , three...\""
+      ]
+    ],
+    "positive, double-negative echo (gate<0, value<0)": [
+      [
+        1.382,
+        "   Sara and Tom are friends. They like to play with toys in Sara's room[[.]] →  Sara has many"
+      ],
+      [
+        1.313,
+        ", in a small house, there lived a little girl named Lucy. Lucy had a yummy[[,]] →  delicious cake."
+      ],
+      [
+        1.292,
+        " helped each other. <|endoftext|>   Sara and Lily were sisters who liked to play together[[.]] →  But sometimes Sara"
+      ],
+      [
+        1.283,
+        " to play again. <|endoftext|>   Lila and Ben were twins who liked to play together[[.]] →  They had many"
+      ],
+      [
+        1.28,
+        "! <|endoftext|>   Sara and Tom are friends. They like to play and share toys[[.]] →  One day,"
+      ]
+    ],
+    "negative pole": [
+      [
+        -19.863,
+        " was a little purple bird. The bird lived in a big tree near a small house.[[ One]] →  day, the"
+      ],
+      [
+        -18.046,
+        "<|endoftext|> Once upon a time, there was a little yellow bird. The bird liked to[[ sit]] →  on a pole"
+      ],
+      [
+        -17.7,
+        "<|endoftext|> Once upon a time, there was a red bird. The red bird liked to[[ fly]] →  high in the"
+      ],
+      [
+        -17.671,
+        " the help of its friends. <|endoftext|> One day, a little bird named Tim was[[ flying]] →  in the sky"
+      ],
+      [
+        -17.649,
+        " <|endoftext|> Once upon a time, there was a colorful bird. The bird liked to[[ fly]] →  and sing."
+      ],
+      [
+        -17.637,
+        "<|endoftext|> Once upon a time, there was a blue bird. The blue bird liked to[[ fly]] →  high in the"
+      ],
+      [
+        -17.581,
+        " was a very patient boy. One day, Tom saw a little bird with a hurt[[ wing]] → . The bird"
+      ],
+      [
+        -17.508,
+        " <|endoftext|> Once upon a time, there was a big, wide bird who loved to[[ fly]] →  high in the"
+      ],
+      [
+        -17.335,
+        " mom had a great day. <|endoftext|> One day, a little bird named Tim was[[ flying]] →  in the sky"
+      ],
+      [
+        -17.247,
+        " in the big green field. <|endoftext|> One day, a little bird named Tim was[[ flying]] →  in the sky"
+      ]
+    ]
+  },
+  "firing_tokens": [
+    [
+      " park",
+      174
+    ],
+    [
+      " one",
+      129
+    ],
+    [
+      "No",
+      126
+    ],
+    [
+      " agreed",
+      120
+    ],
+    [
+      " careful",
+      101
+    ],
+    [
+      " friends",
+      52
+    ],
+    [
+      " tree",
+      50
+    ],
+    [
+      " two",
+      48
+    ],
+    [
+      " the",
+      47
+    ],
+    [
+      " end",
+      45
+    ],
+    [
+      " three",
+      44
+    ],
+    [
+      " One",
+      28
+    ],
+    [
+      " slide",
+      26
+    ],
+    [
+      " But",
+      24
+    ],
+    [
+      " wanted",
+      23
+    ]
+  ],
+  "next_tokens": [
+    [
+      ",",
+      635
+    ],
+    [
+      ".",
+      445
+    ],
+    [
+      " and",
+      213
+    ],
+    [
+      " to",
+      88
+    ],
+    [
+      " of",
+      54
+    ],
+    [
+      " not",
+      32
+    ],
+    [
+      " with",
+      30
+    ],
+    [
+      " the",
+      23
+    ],
+    [
+      " who",
+      20
+    ],
+    [
+      " was",
+      18
+    ],
+    [
+      " for",
+      17
+    ],
+    [
+      " in",
+      17
+    ],
+    [
+      "?\"",
+      16
+    ],
+    [
+      ",\"",
+      14
+    ],
+    [
+      " then",
+      13
+    ]
+  ],
+  "mid_band": {
+    " park": [
+      [
+        9.234,
+        ", Tom, to ride bikes with her. Lily and Tom rode their bicycles to the[[ park]] → . They had"
+      ],
+      [
+        11.008,
+        " One sunny day, Max went to the park to play with his friends. At the[[ park]] → , Max met"
+      ],
+      [
+        9.047,
+        " to dig holes in the ground with his spade. One sunny day, Max went to the[[ park]] →  to play."
+      ],
+      [
+        9.334,
+        " it to the park man and ask if it belongs to someone.\" So they went to the[[ park]] →  man and gave"
+      ]
+    ],
+    " one": [
+      [
+        7.991,
+        " toy truck. One day, a man came up to the baby. \"Hey little[[ one]] → , why are"
+      ],
+      [
+        11.39,
+        " happy. They played a game where they had to find things in the house. The first[[ one]] →  to find all"
+      ],
+      [
+        13.685,
+        " she smiled. She bent down and got some rocks. She began to place them one by[[ one]] →  on the line"
+      ],
+      [
+        13.699,
+        " to choose. He liked the red one because it was soft and comfy. But the blue[[ one]] →  was near the"
+      ]
+    ],
+    "No": [
+      [
+        8.605,
+        " Tim said, \"Can I wear some clothes too?\" Amy was selfish and said, \"[[No]] → , they are"
+      ],
+      [
+        8.247,
+        " said, \"Give me your toy!\" The little girl looked at him and said, \"[[No]] → , you can"
+      ],
+      [
+        12.16,
+        " Tim said, \"I want to sit on the seat first!\" Sue said, \"[[No]] → , I want"
+      ],
+      [
+        10.037,
+        " to see what was inside. \"Can we open them?\" Sam asked. \"[[No]] → , they are"
+      ]
+    ],
+    " agreed": [
+      [
+        11.391,
+        " \"Let's pretend the rock is a boat,\" he said to his friends. They all[[ agreed]] →  and started to"
+      ],
+      [
+        13.788,
+        " \"Sam, let's trade some blocks. I want to use blue blocks too.\" Sam[[ agreed]] → , \"Okay"
+      ],
+      [
+        12.203,
+        " named Lily. Lily said, \"Remy, let's play hide and seek!\" Remy[[ agreed]] →  and they started"
+      ],
+      [
+        12.32,
+        " an idea. He said, \"Let's play hide and seek in the fog!\" Sue[[ agreed]] → , but she"
+      ]
+    ],
+    " careful": [
+      [
+        12.909,
+        " So, they all worked together and made a plan. They showed Elephant how to be more[[ careful]] →  when he kicked"
+      ],
+      [
+        10.274,
+        "The fox saw the bunny and began to creep closer. The bunny knew he had to be[[ careful]] → , so he"
+      ],
+      [
+        9.349,
+        " \"That's a nice crayon, Lily. But you know what? You have to be[[ careful]] →  with crayons."
+      ],
+      [
+        10.79,
+        " dad's apology and offer. He gave back their balls. He told them to be more[[ careful]] →  next time."
+      ]
+    ],
+    " friends": [
+      [
+        8.016,
+        " with my friends.\" Tom picked apples and filled his bag. He gave apples to his[[ friends]] → . They all"
+      ],
+      [
+        8.167,
+        " a small bird with a hurt wing. The bird could not fly. Lily said to her[[ friends]] → , \"Let"
+      ],
+      [
+        9.58,
+        " future. <|endoftext|>  Once upon a time, there were two[[ friends]] →  – a bird"
+      ],
+      [
+        10.55,
+        ", there were two[[ friends]] →  named Sally and"
+      ]
+    ]
+  },
+  "label": "Counting aloud: fires on the number word of a count in progress ('started to count, \"[One]', 'One, [two]', 'one by [one]'), and predicts the comma or next item that follows",
+  "label_test": {
+    "should fire": {
+      "rows": [
+        {
+          "text": "Mia closed her eyes and began to count. \"One",
+          "share": 0.535232663154602,
+          "token": "One"
+        },
+        {
+          "text": "Ben hid under the bed while Sue counted, \"One, two",
+          "share": 0.3419855833053589,
+          "token": " two"
+        },
+        {
+          "text": "The kids lined up and jumped into the pool one by one",
+          "share": 0.3334393799304962,
+          "token": " one"
+        },
+        {
+          "text": "Grandpa pointed at the ducks and counted them: one, two, three",
+          "share": 0.47830820083618164,
+          "token": " two"
+        },
+        {
+          "text": "Lily put the eggs in the basket one by one",
+          "share": 0.18786099553108215,
+          "token": " one"
+        },
+        {
+          "text": "It was time for hide and seek. Anna faced the wall and counted, \"One",
+          "share": 0.34129106998443604,
+          "token": "One"
+        },
+        {
+          "text": "Max counted his cookies. One, two, three, four",
+          "share": 0.5172874927520752,
+          "token": " two"
+        },
+        {
+          "text": "They took turns going down the slide, one by one",
+          "share": 0.6454260349273682,
+          "token": " one"
+        },
+        {
+          "text": "The teacher clapped and the whole class counted together, \"One, two, three",
+          "share": 0.2463659793138504,
+          "token": "One"
+        },
+        {
+          "text": "The frog hopped across the stones one by one",
+          "share": 0.3690889775753021,
+          "token": " one"
+        }
+      ],
+      "strong_rate": 0.8
+    },
+    "near misses, should not fire": {
+      "rows": [
+        {
+          "text": "One day, a little girl named Mia went to the store",
+          "share": 0.022811172530055046,
+          "token": " the"
+        },
+        {
+          "text": "Ben had one red ball and one blue ball",
+          "share": 0.19736924767494202,
+          "token": " ball"
+        },
+        {
+          "text": "Sue had two cats and three dogs",
+          "share": 0.12289790064096451,
+          "token": " dogs"
+        },
+        {
+          "text": "Lily was three years old",
+          "share": -0.0029563067946583033,
+          "token": "<|endoftext|>"
+        },
+        {
+          "text": "Tom wanted to count the stars in the sky",
+          "share": 0.025593873113393784,
+          "token": " the"
+        },
+        {
+          "text": "She was the only one who could help",
+          "share": 0.14058884978294373,
+          "token": " one"
+        },
+        {
+          "text": "\"Which one do you want?\" Mom asked",
+          "share": 0.20668697357177734,
+          "token": " one"
+        },
+        {
+          "text": "Tim ate one apple and two pears",
+          "share": 0.3014691472053528,
+          "token": " two"
+        },
+        {
+          "text": "The bird liked to fly high in the sky",
+          "share": -0.0029563067946583033,
+          "token": "<|endoftext|>"
+        },
+        {
+          "text": "He found a coin with the number one on it",
+          "share": 0.30039095878601074,
+          "token": " one"
+        }
+      ],
+      "strong_rate": 0.2
+    }
+  },
+  "revised_label": "A switch on the word just said: positive on a counting 'One'/'two'/'one by one', negative on a story-opening 'One' -- its output suppresses time words (' day', ' night', ' evening') and favours clause continuations (' because', ' where', ' but')",
+  "ablation": {
+    "prompts": [
+      {
+        "prompt": "Spot closed his eyes and started to count. \"One,",
+        "target": " two",
+        "base": 0.9676926136016846,
+        "ablated": 0.9674139618873596,
+        "dlogp": -0.00028799624762844607,
+        "random_mean_abs_dlogp": 0.0004209331089622435,
+        "random_max_abs_dlogp": 0.002840338338408559
+      },
+      {
+        "prompt": "They counted together: one, two,",
+        "target": " three",
+        "base": 0.9763283133506775,
+        "ablated": 0.9762775301933289,
+        "dlogp": -5.201577935253085e-05,
+        "random_mean_abs_dlogp": 0.0006119684761505095,
+        "random_max_abs_dlogp": 0.007688606035474956
+      },
+      {
+        "prompt": "She counted her toys. One, two, three,",
+        "target": " four",
+        "base": 0.7549975514411926,
+        "ablated": 0.7602016925811768,
+        "dlogp": 0.006869276927728204,
+        "random_mean_abs_dlogp": 0.002940244815338903,
+        "random_max_abs_dlogp": 0.025906323083372762
+      },
+      {
+        "prompt": "Anna faced the tree and started to count. \"",
+        "target": "One",
+        "base": 0.985334038734436,
+        "ablated": 0.9853691458702087,
+        "dlogp": 3.5629044546788025e-05,
+        "random_mean_abs_dlogp": 4.772584731150325e-05,
+        "random_max_abs_dlogp": 0.0002123488164571769
+      },
+      {
+        "prompt": "Anna faced the tree and started to count. \"One",
+        "target": ",",
+        "base": 0.9885697960853577,
+        "ablated": 0.9819402098655701,
+        "dlogp": -0.006728827779404056,
+        "random_mean_abs_dlogp": 0.0001173264100189064,
+        "random_max_abs_dlogp": 0.000547919393145826
+      },
+      {
+        "prompt": "The kids went down the slide one by",
+        "target": " one",
+        "base": 0.7135611772537231,
+        "ablated": 0.7169633507728577,
+        "dlogp": 0.0047565488978666476,
+        "random_mean_abs_dlogp": 0.0029138612234174935,
+        "random_max_abs_dlogp": 0.013065101803364615
+      },
+      {
+        "prompt": "He picked up the rocks one",
+        "target": " by",
+        "base": 0.6929686069488525,
+        "ablated": 0.7047116756439209,
+        "dlogp": 0.016804050497382438,
+        "random_mean_abs_dlogp": 0.00310296730272779,
+        "random_max_abs_dlogp": 0.025473134123862654
+      }
+    ],
+    "output_prompts": [
+      {
+        "prompt": "Anna faced the tree and started to count. \"One",
+        "target": " day",
+        "base": 0.0005748259136453271,
+        "ablated": 0.0023614484816789627,
+        "dlogp": 1.4129632370882723,
+        "random_mean_abs_dlogp": 0.03529970768625289,
+        "random_max_abs_dlogp": 0.36401597582554707
+      },
+      {
+        "prompt": "The bird lived in a big tree near a small house. One",
+        "target": " day",
+        "base": 0.9723135828971863,
+        "ablated": 0.9714968204498291,
+        "dlogp": -0.0008403725939722255,
+        "random_mean_abs_dlogp": 0.00033071784697646266,
+        "random_max_abs_dlogp": 0.003006590642269944
+      },
+      {
+        "prompt": "They took turns cutting the paper with the scissors. They were very careful",
+        "target": " because",
+        "base": 0.013181664049625397,
+        "ablated": 0.00842559989541769,
+        "dlogp": -0.44755209885939734,
+        "random_mean_abs_dlogp": 0.008797319521895396,
+        "random_max_abs_dlogp": 0.04320892243005957
+      },
+      {
+        "prompt": "Toto watched his friend play with the shiny new ball. Toto felt envious",
+        "target": " because",
+        "base": 0.6241536140441895,
+        "ablated": 0.47983402013778687,
+        "dlogp": -0.26295626170316816,
+        "random_mean_abs_dlogp": 0.004208533425974951,
+        "random_max_abs_dlogp": 0.017933124630912775
+      },
+      {
+        "prompt": "Once upon a time, there was a purple cat. The cat loved to skip",
+        "target": " all",
+        "base": 0.17595568299293518,
+        "ablated": 0.08709908276796341,
+        "dlogp": -0.7031858091440132,
+        "random_mean_abs_dlogp": 0.0053373225444664175,
+        "random_max_abs_dlogp": 0.026764128241459007
+      }
+    ],
+    "val_loss_base": 1.4987393617630005,
+    "val_loss_delta": 0.00017568405019119382,
+    "random_neuron_deltas": [
+      0.00011979442206211388,
+      9.316987416241318e-05,
+      0.0001645608281251043,
+      0.00019399421580601484,
+      0.00016974052414298058,
+      0.00012734699703287333,
+      0.00027346512069925666,
+      0.00022205714776646346,
+      0.0001277265982935205,
+      8.807709673419595e-05
+    ],
+    "most_hurt": [
+      [
+        0.9230566024780273,
+        " the kite. She had to tie string to the[[ middle]] →  so"
+      ],
+      [
+        0.7500314712524414,
+        " <|endoftext|> Once upon a time, there was a purple cat. The cat loved to[[ skip]] →  all"
+      ],
+      [
+        0.6287531852722168,
+        " time, in a tidy little house, there lived a bunny named Bobo. Bobo loved to[[ jump]] →  all"
+      ],
+      [
+        0.5549336671829224,
+        " in the park with her friends. The children sat in a circle and began to count.[[ One]] → ,"
+      ],
+      [
+        0.5395073890686035,
+        " wanted to share. They took turns using the scissors to cut the paper. They were very[[ careful]] →  because"
+      ],
+      [
+        0.5054972171783447,
+        " very adorable. It had soft fur and big eyes. The cat liked to lie in the[[ sun]] →  all"
+      ],
+      [
+        0.49199819564819336,
+        " Toto the bird, was watching him. Toto felt[[ envious]] →  because"
+      ],
+      [
+        0.43529295921325684,
+        "Once upon a time, a little bird named Timmy lived in a tree. Timmy loved to[[ sing]] →  all"
+      ]
+    ]
+  },
+  "steering": [
+    {
+      "prompt": "Once upon a time, there was a little girl named Lily. She liked to",
+      "setting": "baseline",
+      "number_words": 1,
+      "text": " play with her toys and have fun. One day, she found a big box in her room. She was very excited and wanted to see what was inside.\nLily opened the box and found a"
+    },
+    {
+      "prompt": "Once upon a time, there was a little girl named Lily. She liked to",
+      "setting": "clamp 1x max",
+      "number_words": 1,
+      "text": " play with her toys and run in the park. One day, she saw a big, red ball in the park. She wanted to play with it, but it was too big for her to carry"
+    },
+    {
+      "prompt": "Once upon a time, there was a little girl named Lily. She liked to",
+      "setting": "clamp 2x max",
+      "number_words": 1,
+      "text": " play with her toys and run in the park. One day, she saw a big, red ball in the park. She wanted to play with it, but she was too small to reach it."
+    },
+    {
+      "prompt": "Once upon a time, there was a little girl named Lily. She liked to",
+      "setting": "clamp 3x max",
+      "number_words": 1,
+      "text": " play with her toys and run in the park. One day, she found a big, red ball in the park. She was so happy and wanted to play with it right where she found it."
+    },
+    {
+      "prompt": "Tom and his dog went to the park. They",
+      "setting": "baseline",
+      "number_words": 0,
+      "text": " saw a big tree with a lot of shade. Tom and his dog were very happy. They wanted to play there.\nTom said, \"Let's play hide and seek!\" The dog agreed and"
+    },
+    {
+      "prompt": "Tom and his dog went to the park. They",
+      "setting": "clamp 1x max",
+      "number_words": 0,
+      "text": " wanted to play and have fun. They saw a big tree and wanted to climb it. Tom was very good at climbing trees.\nAs they climbed the tree, they saw a bird. The bird"
+    },
+    {
+      "prompt": "Tom and his dog went to the park. They",
+      "setting": "clamp 2x max",
+      "number_words": 0,
+      "text": " wanted to play and run. They were very happy.\nAt the park, they saw a big, red ball. Tom wanted to play with the ball, but he was too small to reach it"
+    },
+    {
+      "prompt": "Tom and his dog went to the park. They",
+      "setting": "clamp 3x max",
+      "number_words": 0,
+      "text": " wanted to play and run, but they did not like to run because they were too scared to run because they were too scared to run.\nAt the park, they saw a big, scary bird"
+    },
+    {
+      "prompt": "The sun was shining and the birds were singing in the garden.",
+      "setting": "baseline",
+      "number_words": 1,
+      "text": " The sun was very hot, and the birds were singing. The sun was very hot, and the birds were singing.\nOne day, a little girl named Lily went to the park. She saw"
+    },
+    {
+      "prompt": "The sun was shining and the birds were singing in the garden.",
+      "setting": "clamp 1x max",
+      "number_words": 1,
+      "text": " They were very happy.\nOne day, a little girl named Lucy went to the garden. She saw a big, red tomato. She wanted to pick it and take it home. But the tomato"
+    },
+    {
+      "prompt": "The sun was shining and the birds were singing in the garden.",
+      "setting": "clamp 2x max",
+      "number_words": 1,
+      "text": " They were very happy because they loved to play and make the birds sing.\nOne day, the sun was very high and the sky was blue. The birds were singing and the flowers were blooming."
+    },
+    {
+      "prompt": "The sun was shining and the birds were singing in the garden.",
+      "setting": "clamp 3x max",
+      "number_words": 1,
+      "text": " They liked to play and run, but they always wanted to be the best because they were so good.\nOne, they saw a big, red bird who was sitting on the ground. \"Look"
+    }
+  ],
+  "circuit": {
+    "pushes_up": [
+      [
+        " where",
+        0.3384614586830139
+      ],
+      [
+        " because",
+        0.3347480893135071
+      ],
+      [
+        "king",
+        0.31179752945899963
+      ],
+      [
+        " which",
+        0.30589574575424194
+      ],
+      [
+        " along",
+        0.30193763971328735
+      ],
+      [
+        " though",
+        0.27838134765625
+      ],
+      [
+        " but",
+        0.2672586143016815
+      ],
+      [
+        " this",
+        0.267242968082428
+      ],
+      [
+        " like",
+        0.24850434064865112
+      ],
+      [
+        "die",
+        0.24066290259361267
+      ],
+      [
+        " hello",
+        0.2400580495595932
+      ],
+      [
+        " what",
+        0.23813287913799286
+      ],
+      [
+        " now",
+        0.23807953298091888
+      ],
+      [
+        " breaking",
+        0.23798546195030212
+      ],
+      [
+        "...\"",
+        0.2341773808002472
+      ]
+    ],
+    "pushes_down": [
+      [
+        " day",
+        -0.3337462544441223
+      ],
+      [
+        "ill",
+        -0.3287092447280884
+      ],
+      [
+        " last",
+        -0.30726584792137146
+      ],
+      [
+        "ain",
+        -0.30689069628715515
+      ],
+      [
+        " sunny",
+        -0.2961611747741699
+      ],
+      [
+        " night",
+        -0.2933579683303833
+      ],
+      [
+        " hot",
+        -0.28859663009643555
+      ],
+      [
+        " another",
+        -0.28345099091529846
+      ],
+      [
+        " warm",
+        -0.28054118156433105
+      ],
+      [
+        " fit",
+        -0.2779009938240051
+      ],
+      [
+        "at",
+        -0.2764224410057068
+      ],
+      [
+        " cold",
+        -0.26875460147857666
+      ],
+      [
+        " final",
+        -0.26779115200042725
+      ],
+      [
+        " evening",
+        -0.2624470293521881
+      ],
+      [
+        " pri",
+        -0.25836145877838135
+      ]
+    ],
+    "upstream": [
+      {
+        "neuron": "L2/N422",
+        "effect": "drives it up",
+        "attribution": 0.49712783098220825,
+        "examples": [
+          " home.  The two friends rolled the tires[[ all]] → ",
+          " him. He twisted his hand and spilled the juice[[ all]] → "
+        ]
+      },
+      {
+        "neuron": "L2/N1147",
+        "effect": "drives it up",
+        "attribution": 0.4966345429420471,
+        "examples": [
+          " Bunny, I love playing with you!\" Mr[[.]] → ",
+          " always asked before taking anything, and she and Mr[[.]] → "
+        ]
+      },
+      {
+        "neuron": "L2/N821",
+        "effect": "drives it up",
+        "attribution": 0.37632158398628235,
+        "examples": [
+          "I will cut the dog's hair so it can[[ see]] → ",
+          " park. It is a zip line. It looks[[ fun]] → "
+        ]
+      },
+      {
+        "neuron": "L2/N583",
+        "effect": "drives it up",
+        "attribution": 0.31458133459091187,
+        "examples": [
+          " was so sad that he started to cry. [[One]] → ",
+          " sad because the itch would not go away. [[One]] → "
+        ]
+      },
+      {
+        "neuron": "L2/N807",
+        "effect": "drives it up",
+        "attribution": 0.27462440729141235,
+        "examples": [
+          " know what to do. Just then, his mom[[ came]] → ",
+          ", but no sound[[ came]] → "
+        ]
+      },
+      {
+        "neuron": "L2/N1107",
+        "effect": "drives it up",
+        "attribution": 0.252608984708786,
+        "examples": [
+          ". She was angry. She followed the trail to[[ their]] → ",
+          " was very happy and loved to bow to the other[[ balls]] → "
+        ]
+      },
+      {
+        "neuron": "L2/N45",
+        "effect": "drives it up",
+        "attribution": 0.24601182341575623,
+        "examples": [
+          " The pages ripped and the little girl cried. The[[ chairs]] → ",
+          " mom and wanted to help. She looked around the[[ kitchen]] → "
+        ]
+      },
+      {
+        "neuron": "L2/N609",
+        "effect": "drives it up",
+        "attribution": 0.24104821681976318,
+        "examples": [
+          " dog named Max found a tray. He was very[[ enthusiastic]] → ",
+          " near his house. The well was very deep and[[ amazing]] → "
+        ]
+      },
+      {
+        "neuron": "L2/N1212",
+        "effect": "holds it down",
+        "attribution": -0.4842525124549866,
+        "examples": [
+          " a little boy named Sam. Sam asked, \"[[Is]] → ",
+          " Freddy saw a big rock near the pool. He[[ had]] → "
+        ]
+      },
+      {
+        "neuron": "L2/N901",
+        "effect": "holds it down",
+        "attribution": -0.2744464874267578,
+        "examples": [
+          " very happy. They turned it on and watched funny[[ shows]] → ",
+          " He wanted to play with his toys, watch his[[ shows]] → "
+        ]
+      },
+      {
+        "neuron": "L2/N1012",
+        "effect": "holds it down",
+        "attribution": -0.19450685381889343,
+        "examples": [
+          ". He claps his hands. \"You are[[ right]] → ",
+          " surprised, but pleased. He soon realized she was[[ right]] → "
+        ]
+      },
+      {
+        "neuron": "L2/N536",
+        "effect": "holds it down",
+        "attribution": -0.16181768476963043,
+        "examples": [
+          " big forest with many friends. They played games and[[ had]] → ",
+          " at the funny dog. They all played together and[[ had]] → "
+        ]
+      }
+    ]
+  },
+  "match": {
+    "run": "comic-cherry-166",
+    "candidates": [
+      {
+        "neuron": "L3/N222",
+        "in_top1000": 10,
+        "in_top100": 4,
+        "r": 0.06677816799861741
+      },
+      {
+        "neuron": "L2/N288",
+        "in_top1000": 10,
+        "in_top100": 3,
+        "r": 0.057523920654305435
+      },
+      {
+        "neuron": "L3/N1149",
+        "in_top1000": 9,
+        "in_top100": 4,
+        "r": 0.026983091952548242
+      },
+      {
+        "neuron": "L1/N479",
+        "in_top1000": 8,
+        "in_top100": 0,
+        "r": 0.009736521382488228
+      },
+      {
+        "neuron": "L2/N175",
+        "in_top1000": 7,
+        "in_top100": 2,
+        "r": 0.016109792629309016
+      }
+    ],
+    "neuron": "L3/N222",
+    "corpus_max": 25.979005813598633,
+    "top100_shared": 12,
+    "label_test": {
+      "should fire": {
+        "rows": [
+          {
+            "text": "Mia closed her eyes and began to count. \"One",
+            "share": 0.7647401690483093,
+            "token": " \""
+          },
+          {
+            "text": "Ben hid under the bed while Sue counted, \"One, two",
+            "share": 0.39929062128067017,
+            "token": " two"
+          },
+          {
+            "text": "The kids lined up and jumped into the pool one by one",
+            "share": 0.010726863518357277,
+            "token": "<|endoftext|>"
+          },
+          {
+            "text": "Grandpa pointed at the ducks and counted them: one, two, three",
+            "share": 0.420088529586792,
+            "token": " two"
+          },
+          {
+            "text": "Lily put the eggs in the basket one by one",
+            "share": 0.13942667841911316,
+            "token": " the"
+          },
+          {
+            "text": "It was time for hide and seek. Anna faced the wall and counted, \"One",
+            "share": 0.3089703321456909,
+            "token": " \""
+          },
+          {
+            "text": "Max counted his cookies. One, two, three, four",
+            "share": 0.43357646465301514,
+            "token": " four"
+          },
+          {
+            "text": "They took turns going down the slide, one by one",
+            "share": 0.018322283402085304,
+            "token": " turns"
+          },
+          {
+            "text": "The teacher clapped and the whole class counted together, \"One, two, three",
+            "share": 0.46022599935531616,
+            "token": " two"
+          },
+          {
+            "text": "The frog hopped across the stones one by one",
+            "share": 0.010726863518357277,
+            "token": "<|endoftext|>"
+          }
+        ],
+        "strong_rate": 0.6
+      },
+      "near misses, should not fire": {
+        "rows": [
+          {
+            "text": "One day, a little girl named Mia went to the store",
+            "share": 0.020565930753946304,
+            "token": " little"
+          },
+          {
+            "text": "Ben had one red ball and one blue ball",
+            "share": 0.02010533958673477,
+            "token": " ball"
+          },
+          {
+            "text": "Sue had two cats and three dogs",
+            "share": 0.111910380423069,
+            "token": " three"
+          },
+          {
+            "text": "Lily was three years old",
+            "share": 0.016859425231814384,
+            "token": " three"
+          },
+          {
+            "text": "Tom wanted to count the stars in the sky",
+            "share": 0.33706849813461304,
+            "token": " the"
+          },
+          {
+            "text": "She was the only one who could help",
+            "share": 0.013832229189574718,
+            "token": " who"
+          },
+          {
+            "text": "\"Which one do you want?\" Mom asked",
+            "share": 0.0519309900701046,
+            "token": " you"
+          },
+          {
+            "text": "Tim ate one apple and two pears",
+            "share": 0.41435861587524414,
+            "token": " two"
+          },
+          {
+            "text": "The bird liked to fly high in the sky",
+            "share": 0.010726863518357277,
+            "token": "<|endoftext|>"
+          },
+          {
+            "text": "He found a coin with the number one on it",
+            "share": 0.21599604189395905,
+            "token": " number"
+          }
+        ],
+        "strong_rate": 0.2
+      }
+    },
+    "prompts": [
+      {
+        "prompt": "Spot closed his eyes and started to count. \"One,",
+        "target": " two",
+        "base": 0.9994131326675415,
+        "ablated": 0.9994240999221802,
+        "dlogp": 1.0973634531019633e-05,
+        "random_mean_abs_dlogp": 5.641951206847628e-06,
+        "random_max_abs_dlogp": 2.051624845203005e-05
+      },
+      {
+        "prompt": "They counted together: one, two,",
+        "target": " three",
+        "base": 0.879371166229248,
+        "ablated": 0.8782718181610107,
+        "dlogp": -0.0012509345997556176,
+        "random_mean_abs_dlogp": 0.0011732229712495545,
+        "random_max_abs_dlogp": 0.00541297259346513
+      },
+      {
+        "prompt": "She counted her toys. One, two, three,",
+        "target": " four",
+        "base": 0.934166431427002,
+        "ablated": 0.9336737990379333,
+        "dlogp": -0.0005274887995839285,
+        "random_mean_abs_dlogp": 0.0004971959437742811,
+        "random_max_abs_dlogp": 0.00336269255324828
+      },
+      {
+        "prompt": "Anna faced the tree and started to count. \"",
+        "target": "One",
+        "base": 0.9535083770751953,
+        "ablated": 0.9430346488952637,
+        "dlogp": -0.01104518538815911,
+        "random_mean_abs_dlogp": 0.0004074241981480124,
+        "random_max_abs_dlogp": 0.0030604601402143177
+      },
+      {
+        "prompt": "Anna faced the tree and started to count. \"One",
+        "target": ",",
+        "base": 0.9552565217018127,
+        "ablated": 0.9533374905586243,
+        "dlogp": -0.0020109376614970602,
+        "random_mean_abs_dlogp": 0.0003776709681715411,
+        "random_max_abs_dlogp": 0.003116833535307172
+      },
+      {
+        "prompt": "The kids went down the slide one by",
+        "target": " one",
+        "base": 0.9472889304161072,
+        "ablated": 0.9466822147369385,
+        "dlogp": -0.0006406810383301414,
+        "random_mean_abs_dlogp": 0.0004038033225930598,
+        "random_max_abs_dlogp": 0.00225751982304038
+      },
+      {
+        "prompt": "He picked up the rocks one",
+        "target": " by",
+        "base": 0.912354588508606,
+        "ablated": 0.9123145341873169,
+        "dlogp": -4.3903106373983376e-05,
+        "random_mean_abs_dlogp": 0.0005839415849184214,
+        "random_max_abs_dlogp": 0.0027149122733076186
+      }
+    ],
+    "output_prompts": [
+      {
+        "prompt": "Anna faced the tree and started to count. \"One",
+        "target": " day",
+        "base": 0.0036032937932759523,
+        "ablated": 0.004312725737690926,
+        "dlogp": 0.17972175622544773,
+        "random_mean_abs_dlogp": 0.005521693078331154,
+        "random_max_abs_dlogp": 0.020412627363410086
+      },
+      {
+        "prompt": "The bird lived in a big tree near a small house. One",
+        "target": " day",
+        "base": 0.9707121253013611,
+        "ablated": 0.9706928133964539,
+        "dlogp": -1.989477261841372e-05,
+        "random_mean_abs_dlogp": 0.00010226760120383555,
+        "random_max_abs_dlogp": 0.0003744268416989469
+      },
+      {
+        "prompt": "They took turns cutting the paper with the scissors. They were very careful",
+        "target": " because",
+        "base": 0.010604558512568474,
+        "ablated": 0.01061399094760418,
+        "dlogp": 0.0008890745029234552,
+        "random_mean_abs_dlogp": 0.011504907960228229,
+        "random_max_abs_dlogp": 0.0829353095537134
+      },
+      {
+        "prompt": "Toto watched his friend play with the shiny new ball. Toto felt envious",
+        "target": " because",
+        "base": 0.19700711965560913,
+        "ablated": 0.19748476147651672,
+        "dlogp": 0.0024215558147445628,
+        "random_mean_abs_dlogp": 0.006587909608966468,
+        "random_max_abs_dlogp": 0.02106561042642239
+      },
+      {
+        "prompt": "Once upon a time, there was a purple cat. The cat loved to skip",
+        "target": " all",
+        "base": 0.10871876031160355,
+        "ablated": 0.10812560468912125,
+        "dlogp": -0.0054708094618600095,
+        "random_mean_abs_dlogp": 0.010960592850145879,
+        "random_max_abs_dlogp": 0.04060404758508111
+      }
+    ],
+    "pushes_up": [
+      ".\"",
+      " together",
+      ".",
+      "\".",
+      ",\"",
+      "\",",
+      " only",
+      " top",
+      " end",
+      "--",
+      " either",
+      " held"
+    ],
+    "pushes_down": [
+      " wisdom",
+      " lecture",
+      " manners",
+      " junk",
+      " attitude",
+      " scientist",
+      " history",
+      " consequences",
+      " liquid",
+      " sewing",
+      " math",
+      " room"
+    ]
+  }
+}
