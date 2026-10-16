@@ -1,0 +1,16 @@
+
+bumbling-brook-124: 10 checkpoints 5000..50000, 131072 tokens, top-30
+Entrant similarity = max TF-IDF cosine of a new top-k context to the neuron's previous top-k set.
+
+layer 0: top-k overlap consecutive 0.64, first->last 0.23; 17306 entrants
+   entrant sim  own prev 0.382 | other neuron's prev 0.068 | random ctx vs own prev 0.095
+   59% of entrants beat the cross-neuron null's 95th pct; 24% fall below its median
+layer 1: top-k overlap consecutive 0.51, first->last 0.10; 23812 entrants
+   entrant sim  own prev 0.274 | other neuron's prev 0.079 | random ctx vs own prev 0.101
+   57% of entrants beat the cross-neuron null's 95th pct; 23% fall below its median
+layer 2: top-k overlap consecutive 0.43, first->last 0.07; 28611 entrants
+   entrant sim  own prev 0.224 | other neuron's prev 0.110 | random ctx vs own prev 0.118
+   42% of entrants beat the cross-neuron null's 95th pct; 20% fall below its median
+layer 3: top-k overlap consecutive 0.40, first->last 0.05; 30685 entrants
+   entrant sim  own prev 0.202 | other neuron's prev 0.123 | random ctx vs own prev 0.126
+   31% of entrants beat the cross-neuron null's 95th pct; 23% fall below its median

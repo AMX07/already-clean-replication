@@ -1,0 +1,910 @@
+{
+  "run": "bumbling-brook-124",
+  "steps": [
+    5000,
+    10000,
+    15000,
+    20000,
+    25000,
+    30000,
+    35000,
+    40000,
+    45000,
+    50000
+  ],
+  "config": {
+    "vocab_size": 10000,
+    "context_length": 256,
+    "d_model": 512,
+    "num_heads": 16,
+    "rope_theta": 10000.0,
+    "num_layers": 4,
+    "d_ff": 1344
+  },
+  "tokens": 131072,
+  "k": 30,
+  "layers": [
+    {
+      "layer": 0,
+      "neurons_scored": 256,
+      "jaccard_consecutive_mean": 0.636101445685756,
+      "jaccard_first_last_mean": 0.233923272370337,
+      "entrants": 17306,
+      "entrant_sim_to_own_prev_median": 0.3819141983985901,
+      "entrant_sim_to_other_neuron_prev_median": 0.06813390180468559,
+      "random_ctx_sim_to_own_prev_median": 0.09502661973237991,
+      "entrants_above_cross_null_p95": 0.5916445163527101,
+      "entrants_below_cross_null_median": 0.24459724950884087,
+      "last_set_sim_to_first_set_mean": 0.3304880907236414
+    },
+    {
+      "layer": 1,
+      "neurons_scored": 256,
+      "jaccard_consecutive_mean": 0.5080249126551678,
+      "jaccard_first_last_mean": 0.09794766372379307,
+      "entrants": 23812,
+      "entrant_sim_to_own_prev_median": 0.2737276703119278,
+      "entrant_sim_to_other_neuron_prev_median": 0.07924879342317581,
+      "random_ctx_sim_to_own_prev_median": 0.10074406862258911,
+      "entrants_above_cross_null_p95": 0.5748782126658828,
+      "entrants_below_cross_null_median": 0.22904417940534186,
+      "last_set_sim_to_first_set_mean": 0.23612060786566264
+    },
+    {
+      "layer": 2,
+      "neurons_scored": 256,
+      "jaccard_consecutive_mean": 0.4285862395466875,
+      "jaccard_first_last_mean": 0.06529168901105264,
+      "entrants": 28611,
+      "entrant_sim_to_own_prev_median": 0.2243952751159668,
+      "entrant_sim_to_other_neuron_prev_median": 0.10990844666957855,
+      "random_ctx_sim_to_own_prev_median": 0.11823711544275284,
+      "entrants_above_cross_null_p95": 0.4202229911572472,
+      "entrants_below_cross_null_median": 0.20125126699521162,
+      "last_set_sim_to_first_set_mean": 0.21228614486632674
+    },
+    {
+      "layer": 3,
+      "neurons_scored": 256,
+      "jaccard_consecutive_mean": 0.3967426755795383,
+      "jaccard_first_last_mean": 0.045590727627294055,
+      "entrants": 30685,
+      "entrant_sim_to_own_prev_median": 0.20226527750492096,
+      "entrant_sim_to_other_neuron_prev_median": 0.12348685413599014,
+      "random_ctx_sim_to_own_prev_median": 0.12584778666496277,
+      "entrants_above_cross_null_p95": 0.30956493400684376,
+      "entrants_below_cross_null_median": 0.22809190158057682,
+      "last_set_sim_to_first_set_mean": 0.20171229779158847
+    }
+  ],
+  "trajectories": [
+    {
+      "neuron": "L0/N1338",
+      "step 5000": [
+        [
+          4.59,
+          " up. Soon, she was at the top! She stayed up[[ there]]"
+        ],
+        [
+          4.58,
+          " big branch and looked around. They could see the whole yard from up[[ there]]"
+        ],
+        [
+          4.58,
+          " jump around. After a while, she stopped stirring and just stood[[ there]]"
+        ],
+        [
+          4.55,
+          " dirty and ugly. He said, \"What is that? Why is[[ there]]"
+        ],
+        [
+          4.51,
+          " mom's hand when they walked[[ there]]"
+        ]
+      ],
+      "step 30000": [
+        [
+          4.89,
+          "!\" <|endoftext|> Once upon a time, in a small town,[[ there]]"
+        ],
+        [
+          4.8,
+          " good family and good neighbors. <|endoftext|> Once upon a time,[[ there]]"
+        ],
+        [
+          4.7,
+          " sad. The end. <|endoftext|> Once upon a time,[[ there]]"
+        ],
+        [
+          4.7,
+          " to be nice and share.\" <|endoftext|>  Once upon a time[[ there]]"
+        ],
+        [
+          4.64,
+          " a dog might bite them. <|endoftext|> Once upon a time,[[ there]]"
+        ]
+      ],
+      "step 50000": [
+        [
+          4.91,
+          " and Tim felt happy. He and Spot went back to playing with the[[ blanket]]"
+        ],
+        [
+          4.68,
+          " They use pillows to make the walls. They need something to tie the[[ blanket]]"
+        ],
+        [
+          4.63,
+          " fuzzy thing on the floor. \"We can use that to tie the[[ blanket]]"
+        ],
+        [
+          4.62,
+          " was scared of the dark. At night, he would hide under his[[ blanket]]"
+        ],
+        [
+          4.57,
+          ". It tasted delicious. The mouse thanked the owners of the picnic[[ blanket]]"
+        ]
+      ]
+    },
+    {
+      "neuron": "L0/N793",
+      "step 5000": [
+        [
+          8.1,
+          " Tim said, \"Hi, I'm Tim.\" Sam said, \"[[Hi]]"
+        ],
+        [
+          7.87,
+          " video of them playing. They waved at the camera and said, \"[[Hi]]"
+        ],
+        [
+          7.81,
+          " a duck named Daisy, swimming in the pond. Daisy said, \"[[Hi]]"
+        ],
+        [
+          7.79,
+          " image was pretty. He went to the old man and said, \"[[Hi]]"
+        ],
+        [
+          7.75,
+          " bird was not like the other animals. The bird said, \"[[Hi]]"
+        ]
+      ],
+      "step 30000": [
+        [
+          7.62,
+          " a duck named Daisy, swimming in the pond. Daisy said, \"[[Hi]]"
+        ],
+        [
+          7.59,
+          " new dog.\" Spot went to the new dog and said, \"[[Hi]]"
+        ],
+        [
+          7.51,
+          ", \"Introduce yourself to Sam.\" Tim said, \"[[Hi]]"
+        ],
+        [
+          7.51,
+          " Tim said, \"Hi, I'm Tim.\" Sam said, \"[[Hi]]"
+        ],
+        [
+          7.46,
+          " video of them playing. They waved at the camera and said, \"[[Hi]]"
+        ]
+      ],
+      "step 50000": [
+        [
+          7.33,
+          "I would like a cat. A small and soft one. That can[[ purr]]"
+        ],
+        [
+          6.67,
+          " watch TV.  Tim chose to watch TV.[[ As]]"
+        ],
+        [
+          6.54,
+          " in his big coat. Tom hopped over and said, \"Hi,[[ Mr]]"
+        ],
+        [
+          6.3,
+          " toy together. <|endoftext|> One day, a wise old owl named[[ Mr]]"
+        ],
+        [
+          6.28,
+          " help. She said, \"Let's look for your car together.\"[[ As]]"
+        ]
+      ]
+    },
+    {
+      "neuron": "L0/N273",
+      "step 5000": [
+        [
+          3.28,
+          " a monkey. He read the word aloud again. \"Monkey[[!\"]]"
+        ],
+        [
+          3.27,
+          " said, \"Without courage and strength, nothing can be done.[[ By]]"
+        ],
+        [
+          3.24,
+          " He likes to sleep and eat. He does not like to play or[[ run]]"
+        ],
+        [
+          3.06,
+          " a parrot. The parrot could talk! It said \"Hi, Max[[!\"]]"
+        ],
+        [
+          3.05,
+          "Let's release all the money!\" said Daddy.  \"Yes[[!\"]]"
+        ]
+      ],
+      "step 30000": [
+        [
+          4.23,
+          " it for a long time and then had an idea. She decided to[[ build]]"
+        ],
+        [
+          4.21,
+          "That night Max and John discussed their options and eventually decided to[[ build]]"
+        ],
+        [
+          4.13,
+          " the tower and wanted to play with it. So the kid started to[[ build]]"
+        ],
+        [
+          4.11,
+          " the wand and make many bubbles. The bubbles are round and shiny and[[ float]]"
+        ],
+        [
+          4.09,
+          " rich man wanted to help the leopard. The rich man decided to[[ build]]"
+        ]
+      ],
+      "step 50000": [
+        [
+          4.79,
+          " sun listened to the noisy bird and decided to be less hot. The[[ ice]]"
+        ],
+        [
+          4.7,
+          " the animals could sleep. The animals thanked the bird for helping with the[[ ice]]"
+        ],
+        [
+          4.68,
+          "That evening, as Sarah lay in bed, she thought about the melted[[ ice]]"
+        ],
+        [
+          4.68,
+          " and sat on the floor near their train set. They ate their[[ ice]]"
+        ],
+        [
+          4.67,
+          " and how yummy it looked. She wished she could have a nice cold[[ ice]]"
+        ]
+      ]
+    },
+    {
+      "neuron": "L1/N952",
+      "step 5000": [
+        [
+          1.92,
+          " Tim and Lisa smiled and became friends. They played together every day after[[ that]]"
+        ],
+        [
+          1.86,
+          " fun[[ zooming]]"
+        ],
+        [
+          1.77,
+          " They became good friends and rode their bikes together in the park every day[[.]]"
+        ],
+        [
+          1.75,
+          " the way.  From that day forward, the little girl always[[ looked]]"
+        ],
+        [
+          1.62,
+          " shy anymore. They played together every day, and dreamed together every night[[.]]"
+        ]
+      ],
+      "step 30000": [
+        [
+          4.35,
+          " hair. She looked in the mirror and felt good about the way she[[ looked]]"
+        ],
+        [
+          4.26,
+          " all of the other children. She sat down in a comfortable chair and[[ looked]]"
+        ],
+        [
+          4.26,
+          ", and last was Sally. They all sat on a big branch and[[ looked]]"
+        ],
+        [
+          4.19,
+          " gun some more. So he and Daddy walked around the park and he[[ looked]]"
+        ],
+        [
+          4.03,
+          " could live happily ever after. Lily woke up the next morning and[[ looked]]"
+        ]
+      ],
+      "step 50000": [
+        [
+          5.01,
+          " She looked at both and noticed that the rough path seemed fun and exciting[[.]]"
+        ],
+        [
+          4.66,
+          ". He jumped into a big puddle and splashed around until he was clean[[.]]"
+        ],
+        [
+          4.57,
+          " close, so she could remember how it smelled and how pretty it was[[.]]"
+        ],
+        [
+          4.31,
+          " about his new toy that he couldn't wait to unpack it and play[[.]]"
+        ],
+        [
+          4.28,
+          " they stacked more blocks on top, making the igloo taller and rounder[[.]]"
+        ]
+      ]
+    },
+    {
+      "neuron": "L1/N159",
+      "step 5000": [
+        [
+          4.64,
+          " this is my popcorn!\" But the bird did not go away. It[[ kept]]"
+        ],
+        [
+          4.64,
+          " animals could walk again. The elderly animals were very happy and thanked the[[ tiny]]"
+        ],
+        [
+          4.42,
+          " her toe and it went very high. \"Ouch!\" said a[[ tiny]]"
+        ],
+        [
+          4.4,
+          " cleaning can be fun and helpful. From that day on, he always[[ kept]]"
+        ],
+        [
+          4.35,
+          " her head. ‘Amanda, stop!’ Sophie said. But Amanda[[ kept]]"
+        ]
+      ],
+      "step 30000": [
+        [
+          5.43,
+          " One day, she wanted to taste the sky. She thought, “[[If]]"
+        ],
+        [
+          5.23,
+          " carried with her.[[ One]]"
+        ],
+        [
+          4.95,
+          ".[[ One]]"
+        ],
+        [
+          4.95,
+          ".[[ One]]"
+        ],
+        [
+          4.94,
+          " cook.[[ One]]"
+        ]
+      ],
+      "step 50000": [
+        [
+          5.75,
+          ", if you share, I will give you more hugs.\" Mint thought[[ about]]"
+        ],
+        [
+          5.32,
+          " I will show you if you do not eat me.\" The wolf thought[[ about]]"
+        ],
+        [
+          4.99,
+          " \"I am a wet dog. Can I come in?\" Tim thought[[ about]]"
+        ],
+        [
+          4.84,
+          " They both tried to grab it at the same time. They were very[[ impatient]]"
+        ],
+        [
+          4.79,
+          " One day, she wanted to taste the sky. She thought, “[[If]]"
+        ]
+      ]
+    },
+    {
+      "neuron": "L1/N161",
+      "step 5000": [
+        [
+          6.47,
+          " know that those are your figures. He thinks they are his toys.[[ Let]]"
+        ],
+        [
+          6.43,
+          " is a blanket. It will keep us warm when it's cold.[[ Let]]"
+        ],
+        [
+          6.41,
+          " smiled. She felt better. She said, \"OK, Mom.[[ Let]]"
+        ],
+        [
+          6.39,
+          "What is that?\" Lily asked. \"I don't know.[[ Let]]"
+        ],
+        [
+          6.31,
+          " Lily felt very sorry and sad. She realized she had made a big[[ mistake]]"
+        ]
+      ],
+      "step 30000": [
+        [
+          9.28,
+          " One day, he got an invitation to a fun birthday party. The[[ invitation]]"
+        ],
+        [
+          9.09,
+          " there was a little boy named Tim. One day, he got an[[ invitation]]"
+        ],
+        [
+          7.49,
+          " to put it on her doll's dress. \"Wow, a[[ sticker]]"
+        ],
+        [
+          7.48,
+          " He was very happy. But then, something unexpected happened. Tim[[ tripped]]"
+        ],
+        [
+          7.47,
+          " his family with the cake. But then, something unexpected happened. Spot[[ tripped]]"
+        ]
+      ],
+      "step 50000": [
+        [
+          9.41,
+          " One day, he got an invitation to a fun birthday party. The[[ invitation]]"
+        ],
+        [
+          9.3,
+          " down fast and laughed all the way. After playing on the slide[[,]]"
+        ],
+        [
+          7.98,
+          " there was a little boy named Tim. One day, he got an[[ invitation]]"
+        ],
+        [
+          7.57,
+          "That's a nice brick, Lily.\" After playing with the brick[[,]]"
+        ],
+        [
+          7.28,
+          " like two blue balls and two yellow ducks. After playing the game[[,]]"
+        ]
+      ]
+    },
+    {
+      "neuron": "L2/N633",
+      "step 5000": [
+        [
+          4.67,
+          " keep your feet warm and dry when it rains.\"  Emily thought[[ this]]"
+        ],
+        [
+          4.55,
+          " can choose one toy to play with in the park.\" Tim thought for[[ a]]"
+        ],
+        [
+          4.54,
+          " Amy wanted to create a fun game for Fluffy to play. She thought[[ and]]"
+        ],
+        [
+          4.43,
+          " laughed all day. And they all lived happily ever after. <|endoftext|>[[  ]]"
+        ],
+        [
+          4.3,
+          " fell asleep, dreaming about her fun day with the phone. <|endoftext|>[[  ]]"
+        ]
+      ],
+      "step 30000": [
+        [
+          8.48,
+          " friend told me it would be fun!\" The brother thought for a[[ minute]]"
+        ],
+        [
+          7.89,
+          " outside. Soon, the big blue cat fell asleep, dreaming of more[[ fun]]"
+        ],
+        [
+          7.61,
+          " him. They played all day, and they both had a lot of[[ fun]]"
+        ],
+        [
+          7.57,
+          " take turns playing with it. But soon, they began to argue about[[ who]]"
+        ],
+        [
+          7.48,
+          " friend, a dog named Max. They would play all day and have[[ fun]]"
+        ]
+      ],
+      "step 50000": [
+        [
+          10.45,
+          " outside. Soon, the big blue cat fell asleep, dreaming of more[[ fun]]"
+        ],
+        [
+          10.07,
+          " friend told me it would be fun!\" The brother thought for a[[ minute]]"
+        ],
+        [
+          9.55,
+          " him. They played all day, and they both had a lot of[[ fun]]"
+        ],
+        [
+          9.26,
+          " on the island every day, balancing and having[[ fun]]"
+        ],
+        [
+          8.85,
+          " were very friendly. They played with the ducks and had a lot of[[ fun]]"
+        ]
+      ]
+    },
+    {
+      "neuron": "L2/N1013",
+      "step 5000": [
+        [
+          4.75,
+          " special event that day and she needed her jewelry. She did not like[[ that]]"
+        ],
+        [
+          4.38,
+          " sound of the singing, until she came to a clearing. There she[[ saw]]"
+        ],
+        [
+          4.25,
+          " go away. When Anna came back to the room, she saw[[ that]]"
+        ],
+        [
+          4.19,
+          " the model plane when her mom was not looking. She waited and hoped[[ that]]"
+        ],
+        [
+          3.89,
+          " if Mia cut it. \"No, Mia, don't do[[ that]]"
+        ]
+      ],
+      "step 30000": [
+        [
+          8.41,
+          " coffee. The small bird helped him. The man came back and saw[[ what]]"
+        ],
+        [
+          7.99,
+          " mom hide a big paper in a box. Lily was very curious about[[ what]]"
+        ],
+        [
+          7.71,
+          " with it. Sue was very sad. A wise old man saw[[ what]]"
+        ],
+        [
+          7.42,
+          " ant. The ant was scared and cried. Elly's friends saw[[ what]]"
+        ],
+        [
+          7.37,
+          " an idea. She suggests, \"Let's go downstairs and see[[ what]]"
+        ]
+      ],
+      "step 50000": [
+        [
+          10.57,
+          " with it. Sue was very sad. A wise old man saw[[ what]]"
+        ],
+        [
+          9.78,
+          " ant. The ant was scared and cried. Elly's friends saw[[ what]]"
+        ],
+        [
+          8.93,
+          " coffee. The small bird helped him. The man came back and saw[[ what]]"
+        ],
+        [
+          8.9,
+          ". He lands on the grass. He says ouch. Sara sees[[ what]]"
+        ],
+        [
+          8.76,
+          " mom hide a big paper in a box. Lily was very curious about[[ what]]"
+        ]
+      ]
+    },
+    {
+      "neuron": "L2/N948",
+      "step 5000": [
+        [
+          3.29,
+          " ate the chocolate cake together. Now everyone was happy at the party.[[ ]]"
+        ],
+        [
+          2.94,
+          " too. They learned that being persistent and not giving up is important.[[ ]]"
+        ],
+        [
+          2.83,
+          " Everyone in the town was happy because the boy learned a good lesson.[[ ]]"
+        ],
+        [
+          2.58,
+          " much that all his friends got wet. They laughed and splashed more.[[ ]]"
+        ],
+        [
+          2.51,
+          " to eat ice cream. The bird saw this and wanted to help.[[ ]]"
+        ]
+      ],
+      "step 30000": [
+        [
+          5.95,
+          " Mr. Hoot because he knew the wise owl was always right. He[[ told]]"
+        ],
+        [
+          4.43,
+          " and the people did not work. The king was sad again. He[[ told]]"
+        ],
+        [
+          4.29,
+          " to be more careful and respectful in the future. She decided to always[[ tell]]"
+        ],
+        [
+          4.23,
+          "Then, Lucy's mom came and saw the row of animals. She[[ told]]"
+        ],
+        [
+          4.18,
+          " excited. He wanted to be popular and have many friends. His mom[[ told]]"
+        ]
+      ],
+      "step 50000": [
+        [
+          7.29,
+          " to be more careful and respectful in the future. She decided to always[[ tell]]"
+        ],
+        [
+          5.75,
+          " time, remember to share and not eat too much.\" Tim learned that[[ sharing]]"
+        ],
+        [
+          5.58,
+          " are alone. The moral of the story is: Do not fight[[ with]]"
+        ],
+        [
+          5.54,
+          " a big, sweet candy. Mia was so surprised! She learned that[[ sharing]]"
+        ],
+        [
+          5.47,
+          " Mr. Hoot because he knew the wise owl was always right. He[[ told]]"
+        ]
+      ]
+    },
+    {
+      "neuron": "L3/N590",
+      "step 5000": [
+        [
+          13.95,
+          " there were many things to look at. There were big animals, pretty[[ rocks]]"
+        ],
+        [
+          12.99,
+          " <|endoftext|> One day, a boy named Tim and his dog,[[ Spot]]"
+        ],
+        [
+          12.82,
+          " things. One day, Tom went on a walk with his dog,[[ Spot]]"
+        ],
+        [
+          12.57,
+          " went to the park with her balloon. When she got to the[[ park]]"
+        ],
+        [
+          12.56,
+          "Max saw a big puddle of water. He ran and jumped into the[[ puddle]]"
+        ]
+      ],
+      "step 30000": [
+        [
+          14.85,
+          " to build it even bigger than before. She added blocks, one by[[ one]]"
+        ],
+        [
+          13.57,
+          " cat said, \"I want to make the stack bigger!\" The dog[[ agreed]]"
+        ],
+        [
+          13.37,
+          " at her and nodded. So Lucy ran to get one of her colored[[ pieces]]"
+        ],
+        [
+          12.99,
+          " Tim asked. \"I am counting red cars,\" Ben replied. \"[[Want]]"
+        ],
+        [
+          12.06,
+          ". She saw that one was moving a little bit, and the other[[ one]]"
+        ]
+      ],
+      "step 50000": [
+        [
+          21.35,
+          " way, Lucy saw many rocks. She started to count them. \"[[One]]"
+        ],
+        [
+          17.69,
+          " to build it even bigger than before. She added blocks, one by[[ one]]"
+        ],
+        [
+          17.04,
+          " Lucy saw many rocks. She started to count them. \"One,[[ two]]"
+        ],
+        [
+          16.72,
+          " The game is to see who can throw a ball the farthest. The[[ one]]"
+        ],
+        [
+          16.02,
+          " Tim asked. \"I am counting red cars,\" Ben replied. \"[[Want]]"
+        ]
+      ]
+    },
+    {
+      "neuron": "L3/N1017",
+      "step 5000": [
+        [
+          1.81,
+          " fox smiled and said, 'You are very clever, Joe.' Joe[[ thanked]]"
+        ],
+        [
+          1.72,
+          " feel safe. The cat was his powerful friend. Tim was not scared[[ of]]"
+        ],
+        [
+          1.43,
+          " a big waffle for you, Tom!\" Tom could not[[ hear]]"
+        ],
+        [
+          1.37,
+          " hole. But the hole was too deep, and the rabbit could not[[ jump]]"
+        ],
+        [
+          1.35,
+          " that day on, Lucy never[[ fe]]"
+        ]
+      ],
+      "step 30000": [
+        [
+          5.38,
+          " and Lucy's mom got the tasty cookie for them. Tim and Lucy[[ were]]"
+        ],
+        [
+          4.91,
+          " everywhere!\" said Daddy.  Mummy and Daddy hugged each other and[[ were]]"
+        ],
+        [
+          4.43,
+          " back inside to finish the cake. <|endoftext|>  Mummy and daddy[[ took]]"
+        ],
+        [
+          4.2,
+          " brighter and brighter. Finally, Lucy's mum and dad had to[[ call]]"
+        ],
+        [
+          4.19,
+          ", she ran back to her mom with her new discovery. Her mom[[ was]]"
+        ]
+      ],
+      "step 50000": [
+        [
+          6.34,
+          " you for helping me, Tim. You did a great job.\" Tim[[ was]]"
+        ],
+        [
+          5.39,
+          " the string with her sharp teeth. The string fell down, and Billy[[ was]]"
+        ],
+        [
+          5.05,
+          " and then said goodbye. Lucy waved as the bug flew away. Lucy[[ was]]"
+        ],
+        [
+          4.85,
+          " cleaning, the cabin looked so pretty and clean. Tim and his mom[[ were]]"
+        ],
+        [
+          4.85,
+          " he proudly showed his mom he had finished the job. His mom[[ was]]"
+        ]
+      ]
+    },
+    {
+      "neuron": "L3/N1319",
+      "step 5000": [
+        [
+          12.89,
+          " jumped into the surf and splashed around. But then, the surf[[ got]]"
+        ],
+        [
+          12.03,
+          "They try to get their figures from Spot, but he is too strong[[ and]]"
+        ],
+        [
+          12.03,
+          " join Lily and Ben and play with the water too. They are playful[[ and]]"
+        ],
+        [
+          10.85,
+          " Lily and Ben nod and run to the water fountain. They are playful[[ and]]"
+        ],
+        [
+          10.75,
+          " hand full of blueberries. They eat some blueberries. They are sweet[[ and]]"
+        ]
+      ],
+      "step 30000": [
+        [
+          13.38,
+          " big basket and took them home. Tim and Sam learned that it's[[ more]]"
+        ],
+        [
+          13.11,
+          " but Fluffy was too fast. They played and played until they were[[ both]]"
+        ],
+        [
+          13.06,
+          " was so sweet and juicy! The doctor was very happy to have found[[ such]]"
+        ],
+        [
+          12.58,
+          " yelled, \"Tim and Lucy, get down from there! It's[[ not]]"
+        ],
+        [
+          11.44,
+          "Don't be scared. I will teach you how to dive. It[['s]]"
+        ]
+      ],
+      "step 50000": [
+        [
+          12.61,
+          " stood on the chair and reached up high. Finally, she got the[[ tomato]]"
+        ],
+        [
+          11.89,
+          " yelled, \"Tim and Lucy, get down from there! It's[[ not]]"
+        ],
+        [
+          11.85,
+          " cat. The cat tried to climb the tree, but it was[[ not]]"
+        ],
+        [
+          11.7,
+          " Fluffy was too fast. They played and played until they were both[[ very]]"
+        ],
+        [
+          11.38,
+          " locked in the house. The cat gave the girl a massage to make[[ her]]"
+        ]
+      ]
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+comic-cherry-166/ckpt_final.pt  {'vocab_size': 10000, 'context_length': 256, 'num_layers': 4, 'd_model': 512, 'num_heads': 16, 'd_ff': 1344, 'rope_theta': 10000.0}
+32768 calibration tokens, same number eval tokens
+median top-2 share over all eval tokens: 0.82
+
+config                                          loss   dloss    acc  changed flip-share |h| mass
+baseline                                       1.368  +0.000  63.5%     0.0%          -     0.0%
+weak 25% (all layers)                          1.368  +0.001  63.4%     1.0%       0.51     2.2%
+weak 50% (all layers)                          1.374  +0.006  63.3%     3.3%       0.52    10.8%
+weak 75% (all layers)                          1.405  +0.037  62.6%     8.7%       0.56    29.8%
+weak 90% (all layers)                          1.495  +0.127  60.8%    16.0%       0.59    51.2%
+strong 1% (all layers)                         2.373  +1.005  44.3%    44.5%       0.72    15.7%
+strong 7% (all layers)                         4.256  +2.889  21.5%    74.5%       0.79    42.0%
+strong 3.2% (mass-matched to weak 75%)         3.397  +2.030  30.3%    63.4%       0.77    29.7%
+random 75% (count-matched)                     3.757  +2.389  26.8%    68.3%       0.77        -
+double-negative regime zeroed                  1.435  +0.068  62.0%    11.6%       0.57        -
+gate-closed (gate<0) zeroed                    1.562  +0.194  59.5%    19.6%       0.61        -
+layer 0: weak 75%                              1.375  +0.007  63.3%     3.7%       0.52     4.1%
+layer 0: strong 7%                             2.775  +1.407  39.4%    51.9%       0.74     6.1%
+layer 1: weak 75%                              1.374  +0.007  63.4%     3.7%       0.52     6.3%
+layer 1: strong 7%                             1.635  +0.268  58.1%    22.0%       0.63     8.3%
+layer 2: weak 75%                              1.375  +0.007  63.2%     4.0%       0.53     8.5%
+layer 2: strong 7%                             1.536  +0.168  59.6%    18.5%       0.61    11.6%
+layer 3: weak 75%                              1.386  +0.019  63.0%     5.9%       0.54    10.8%
+layer 3: strong 7%                             1.774  +0.407  54.1%    29.2%       0.66    16.1%
+
+SwiGLU sign split (top-20 positive activations per neuron):
+  layer 0: 0.0% of neurons have >=50% of top-k from gate<0 echo; mean gate-closed share 0.0%; 70.4% of all positive acts are double-negative
+  layer 1: 0.7% of neurons have >=50% of top-k from gate<0 echo; mean gate-closed share 0.6%; 71.8% of all positive acts are double-negative
+  layer 2: 0.7% of neurons have >=50% of top-k from gate<0 echo; mean gate-closed share 0.8%; 71.6% of all positive acts are double-negative
+  layer 3: 0.7% of neurons have >=50% of top-k from gate<0 echo; mean gate-closed share 0.7%; 72.2% of all positive acts are double-negative
